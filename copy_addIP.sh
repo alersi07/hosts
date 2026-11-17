@@ -9,4 +9,4 @@ do
     if [[ "$addIP" != "" && "$addIP" != "$ip" ]]; then
         echo "Bogus IP for $name in /etc/hosts!"
     fi
-done
+done 
