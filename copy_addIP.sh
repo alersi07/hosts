@@ -1,5 +1,5 @@
 #!/bin/bash
-
+echo "ANISIAAAAAAA"
 cat /etc/hosts | while read ip name rest
 do
     if [[ "$ip" == "" || "$ip" =~ ^# ]]; then
